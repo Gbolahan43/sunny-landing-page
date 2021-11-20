@@ -4,7 +4,7 @@
   }
   /* Header */
   .header {
-    background-image: url("../images/mobile/image-header.jpg");
+    background-image: url("../mobile-header.jpg");
     height: 67vh;
     background-size: 100% 100%;
   }
@@ -216,7 +216,7 @@
 @media all and (min-width: 481px) and (max-width: 1023px) {
   /* Header */
   .header {
-    background-image: url("../images/desktop/image-header.jpg");
+    background-image: url("../desktop-header.jpg");
     height: 55vh;
     background-size: 100% 100%;
   }
@@ -402,7 +402,7 @@
 @media all and (min-width: 1024px) {
   /* Header */
   .header {
-    background-image: url("../images/desktop/image-header.jpg");
+    background-image: url("../desktop-header.jpg");
     height: 67vh;
     background-size: 100% 100%;
   }
