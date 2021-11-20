@@ -1,0 +1,118 @@
+:root {
+  --clr-primary-a2: hsl(7, 99%, 70%);
+  --clr-primary-a1: hsl(51, 100%, 49%);
+
+  --clr-primary-graphic: hsl(167, 40%, 24%);
+  --clr-primary-photography: hsl(198, 62%, 26%);
+  --clr-primary-footer: hsl(168, 34%, 41%);
+
+  --clr-neutral-graphic: hsl(212, 27%, 19%);
+  --clr-neutral-photography: hsl(213, 9%, 39%);
+  --clr-neutral-photography2: hsl(232, 10%, 55%);
+  --clr-neutral-photography3: hsl(210, 4%, 67%);
+  --clr-neutral-a2: hsl(7, 99%, 70%, 0.5);
+  --clr-neutral-a1: hsl(51, 100%, 49%, 0.5);
+  --clr-neutral-footer: hsl(168, 34%, 68%);
+
+  --clr-neutral-white: hsl(0, 0%, 100%);
+
+  --ff-primary: "Barlow", sans-serif;
+  --ff-secondary: "Fraunces", serif;
+
+  --default-padding: 15px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--ff-primary);
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+body,
+h1,
+h3,
+h4,
+h6,
+p {
+  margin: 0;
+}
+
+body,
+html {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 40px;
+  margin-top: 30px;
+  letter-spacing: 3px;
+  color: var(--clr-neutral-white);
+}
+h3,
+.name {
+  text-transform: initial;
+}
+h4 {
+  text-transform: uppercase;
+  color: var(--clr-neutral-photography2);
+  letter-spacing: 4px;
+  margin-top: 40px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.2;
+  font-family: var(--ff-secondary);
+  font-weight: 900;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Classes */
+.hamburger {
+  display: none;
+}
+.header {
+  position: relative;
+}
+.arrow-down {
+  position: absolute;
+  left: 0;
+  top: 18%;
+  right: 0;
+  bottom: 0;
+  display: block;
+  margin: auto;
+}
+.name {
+  color: var(--clr-neutral-graphic);
+  letter-spacing: 0px;
+  font-weight: 900;
+}
+.client-title {
+  padding: 10px;
+}
+
+.title {
+  font-size: 14px;
+  margin-top: 10px;
+  color: var(--clr-neutral-photography3);
+}
